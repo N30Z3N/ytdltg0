@@ -1,1 +1,18 @@
-
+{
+  "name": "ydl bot",
+  "description": "This app does one little thing, and does it well.",
+  "keywords": ["cyka", "bylat"],
+  "repository": "https://github.com/bnsave100/ytdltg0.git",
+  "formation": {"worker": {"quantity": 1, "size": "free"}},
+  "env": {
+    "API_ID": {
+      "description": "Your telegram api id."
+    },
+    "API_HASH": {
+      "description": "Your telegram api hash."
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot_token"
+    }
+  }
+}       
